@@ -1,0 +1,14 @@
+{
+    "exercises": [
+        {
+            "sentence": "You @ listen to the teacher.",
+            "options": "must, can",
+            "answer": "must"
+        },
+        {
+            "sentence": "You @ park here",
+            "options": "can´t, won't",
+            "answer": "won't"
+        }
+    ]
+}

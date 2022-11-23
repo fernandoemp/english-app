@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CareScheduleComponent } from './components/care-schedule/care-schedule.component';
+import { CompleteSentencesComponent } from './components/complete-sentences/complete-sentences.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { PatientComponent } from './components/patient/patient.component';
@@ -11,6 +12,7 @@ import { VitalSignsHistoryComponent } from './components/vital-signs-history/vit
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'complete-sentences', component: CompleteSentencesComponent },
   { path: 'patient', component: PatientComponent },
   { path: 'care-schedule', component: CareScheduleComponent },
   { path: 'vital-sign', component: VitalSignComponent },

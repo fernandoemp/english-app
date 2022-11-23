@@ -21,6 +21,7 @@ import { ManageArrayDialogComponent } from './components/shared/manage-array-dia
 import { VitalSignComponent } from './components/vital-sign/vital-sign.component';
 import { VitalSignsHistoryComponent } from './components/vital-signs-history/vital-signs-history.component';
 import { VitalSignDialogComponent } from './components/shared/vital-sign-dialog/vital-sign-dialog.component';
+import { CompleteSentencesComponent } from './components/complete-sentences/complete-sentences.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { VitalSignDialogComponent } from './components/shared/vital-sign-dialog/
     ManageArrayDialogComponent,
     VitalSignComponent,
     VitalSignsHistoryComponent,
-    VitalSignDialogComponent
+    VitalSignDialogComponent,
+    CompleteSentencesComponent
   ],
   imports: [
     AngularMaterialModule,
