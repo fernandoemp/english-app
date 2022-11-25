@@ -1,4 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { MatIconRegistry } from '@angular/material/icon';
+import { DomSanitizer } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { UserService } from '../../core/services/user.service';
 
@@ -10,9 +12,9 @@ import { UserService } from '../../core/services/user.service';
 export class HeaderComponent implements OnInit {
 
   @Output() public sidenavToggle = new EventEmitter();
-  constructor(public userService: UserService, private _router: Router) { 
-
+  constructor(public userService: UserService, private _router: Router, private matIconRegistry: MatIconRegistry, private domSanitzer: DomSanitizer) { 
   }
+  
   ngOnInit(): void {
     // this.userService.getUserLoggedIn();
   }
