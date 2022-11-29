@@ -17,8 +17,8 @@ const routes: Routes = [
   { path: 'care-schedule', component: CareScheduleComponent },
   { path: 'vital-sign', component: VitalSignComponent },
   { path: 'vital-signs-history', component: VitalSignsHistoryComponent },
-  { path: '', pathMatch: 'full', redirectTo: 'login' },
-  { path: '**', pathMatch: 'full', redirectTo: 'login' },
+  { path: '', pathMatch: 'full', redirectTo: 'home' },
+  { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 
 @NgModule({
