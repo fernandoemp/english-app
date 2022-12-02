@@ -22,6 +22,8 @@ import { VitalSignComponent } from './components/vital-sign/vital-sign.component
 import { VitalSignsHistoryComponent } from './components/vital-signs-history/vital-signs-history.component';
 import { VitalSignDialogComponent } from './components/shared/vital-sign-dialog/vital-sign-dialog.component';
 import { CompleteSentencesComponent } from './components/complete-sentences/complete-sentences.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { CompleteSentencesComponent } from './components/complete-sentences/comp
     VitalSignComponent,
     VitalSignsHistoryComponent,
     VitalSignDialogComponent,
-    CompleteSentencesComponent
+    CompleteSentencesComponent,
+    PrivacyPolicyComponent,
+    DisclaimerComponent
   ],
   imports: [
     AngularMaterialModule,
