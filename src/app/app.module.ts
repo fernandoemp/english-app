@@ -24,6 +24,9 @@ import { VitalSignDialogComponent } from './components/shared/vital-sign-dialog/
 import { CompleteSentencesComponent } from './components/complete-sentences/complete-sentences.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
+import { ModalVerbTheoryComponent } from './components/modal-verb-theory/modal-verb-theory.component';
+import { CrimesTheoryComponent } from './components/crimes-theory/crimes-theory.component';
+import { CrimesExercisesComponent } from './components/crimes-exercises/crimes-exercises.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +46,10 @@ import { DisclaimerComponent } from './components/disclaimer/disclaimer.componen
     VitalSignDialogComponent,
     CompleteSentencesComponent,
     PrivacyPolicyComponent,
-    DisclaimerComponent
+    DisclaimerComponent,
+    ModalVerbTheoryComponent,
+    CrimesTheoryComponent,
+    CrimesExercisesComponent
   ],
   imports: [
     AngularMaterialModule,
