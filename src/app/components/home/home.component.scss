@@ -41,6 +41,7 @@ th {
   // padding: 0.5rem;
   box-sizing: border-box;
   overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .titleSection {
@@ -66,4 +67,41 @@ th {
 .btn {
   color: #fff;
   background-color: #222;
+}
+
+.main{
+  margin: 30px;
+}
+
+.mainImg{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.mainContent{
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  justify-content: center;
+}
+
+.mainButton{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(149, 236, 255);
+  font-size: 20px;
+  font-weight: 500;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.linkButton{
+  color: #222;
 }

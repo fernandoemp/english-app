@@ -11,53 +11,6 @@
             "options": "can´t,won't",
             "correctAnswer": "won't",
             "answer":""
-        },
-        {
-            "sentence": "You @ listen to the teacher.",
-            "options": "must,can",
-            "correctAnswer": "must",
-            "answer":""
-        },
-        {
-            "sentence": "You @ park here",
-            "options": "can´t,won't",
-            "correctAnswer": "won't",
-            "answer":""
-        },{
-            "sentence": "You @ listen to the teacher.",
-            "options": "must,can",
-            "correctAnswer": "must",
-            "answer":""
-        },
-        {
-            "sentence": "You @ park here",
-            "options": "can´t,won't",
-            "correctAnswer": "won't",
-            "answer":""
-        },
-        {
-            "sentence": "You @ listen to the teacher.",
-            "options": "must,can",
-            "correctAnswer": "must",
-            "answer":""
-        },
-        {
-            "sentence": "You @ park here",
-            "options": "can´t,won't",
-            "correctAnswer": "won't",
-            "answer":""
-        },
-        {
-            "sentence": "You @ listen to the teacher.",
-            "options": "must,can",
-            "correctAnswer": "must",
-            "answer":""
-        },
-        {
-            "sentence": "You @ park here",
-            "options": "can´t,won't",
-            "correctAnswer": "won't",
-            "answer":""
         }
     ]
 }

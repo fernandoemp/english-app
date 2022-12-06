@@ -1,1 +1,237 @@
-<p>modal-verb-theory works!</p>
+<div fxLayout="row" class="container fadeIn">
+    <app-sidenav fxHide.lt-sm class="sidenav" fxFlex="25" fxFlex.gt-sm="20"></app-sidenav>
+    <!-- Theory -->
+    <div fxLayout="column" class="managment" fxFlex *ngIf="!isExercises">
+        <mat-card class="main">
+            <mat-card-header class="mainHeader">Modal Verbs</mat-card-header>
+            <mat-card-content class="mainContent">
+
+                <h3><b>Theory and grammar uses</b></h3>
+
+                <p><b>Can</b></p>
+                <div class="theoryContent">
+                    <p>Expresa habilidad o posibilidad y en español los traducimos como “poder”. Ejemplos:</p>
+
+                    <p>I can speak english = Puedo hablar inglés.</p>
+
+                    <p>He can’t escort go with you = No puede acompañarte</p>
+
+                    <p>Can you help me? = ¿Me puedes ayudar?</p>
+                </div>
+
+                <p><b>Could</b></p>
+
+                <div class="theoryContent">
+                    <p>Es la forma pasada de “can”, pero también se usa para expresar posibilidad. Además sirve para
+                        preguntar
+                        con un tono de formalidad (particularmente hacer solicitudes a quien nos escucha).</p>
+
+                    <p>You could use my chair = Podrías usar mi silla</p>
+
+                    <p>She could not go to the market with us = Ella no pudo ir al mercado nos nosotras</p>
+
+                    <p>Could you open the door, please? = ¿Podrías abrirme la puerta, por favor?</p>
+                </div>
+
+                <p><b>May</b></p>
+
+                <div class="theoryContent">
+                    <p>Este modal verb se utiliza para expresar posibilidad y probabilidad. Ejemplos:</p>
+
+                    <p>She may pass the test = Ella podría aprobar el examen</p>
+
+                    <p>It may not snow tomorrow = Mañana podría no nevar.</p>
+
+                    <p>May I come in? = ¿Puedo entrar?</p>
+                </div>
+
+                <p><b>Might</b></p>
+
+                <div class="theoryContent">
+                    <p>Might es usado para dar sugerencias y posibilidades y también se usa para peticiones y
+                        ofrecimientos.
+                    </p>
+
+                    <p>My sister might come home for my birthday = Mi hermana tal vez pueda venir a casa para mi
+                        cumpleaños
+                    </p>
+
+                    <p>You might not arrive on time = Puede ser que no llegues a tiempo.</p>
+
+                    <p>Might I buy you a drink? = ¿Te puedo invitar un trago?</p>
+                </div>
+
+                <p><b>Will</b></p>
+
+                <div class="theoryContent">
+                    <p>Es más conocido por expresar el futuro en inglés, pero también se usa para expresar una decisión
+                        hecha
+                        en el momento en que se habla o la intención de hacer algo.</p>
+                    <p>Ejemplo:</p>
+
+                    <p>He will call me back = Me va a volver a hablar</p>
+
+                    <p>I won’t go with you because I have a lot of work = No iré contigo porque tengo mucho trabajo</p>
+
+                    <p>Will you cover my expenses = ¿Puedes cubrir mis gastos?</p>
+                </div>
+
+                <p><b>Would</b></p>
+
+                <div class="theoryContent">
+                    <p>Se usa para realizar peticiones con amabilidad y también sirve para señalar acciones constantes
+                        en el
+                        pasado.</p>
+
+                    <p>I would like a cup of tea, please = Me gustaría una taza de té, por favor</p>
+
+                    <p>He would visit his sister every weekend = Visitaba a su hermana cada fin.</p>
+
+                    <p>Would you like to taste it? = ¿Te gustaría probarlo?</p>
+                </div>
+
+                <p><b>Must</b></p>
+
+                <div class="theoryContent">
+                    <p>En algunas ocasiones puede significar suposiciones, pero lo más común es que se refiera a
+                        necesidades
+                        o
+                        compromisos.</p>
+
+                    <p>He must be back by tomorrow = Él debe estar aquí para mañana</p>
+
+                    <p>You must not litter = Está prohibido tirar basura en la calle.</p>
+
+                    <p>Must I go to the dentist today? = ¿Sí tengo que ir al dentista hoy?</p>
+                </div>
+
+                <p><b>Shall</b></p>
+
+                <div class="theoryContent">
+                    <p>En los últimos tiempos ha caído en desuso en Estados Unidos dentro de la lengua informal, pero en
+                        Reino
+                        Unido sigue siendo común. Además su significado es el mismo que will.</p>
+                    <p>Ejemplos:</p>
+
+                    <p>I shall be at your wedding = Estaré en tu boda</p>
+
+                    <p>You shall not go to the party = No vas a ir a la fiesta.</p>
+
+                    <p>Shall we go to the theatre tomorrow? = ¿Vamos al teatro mañana?</p>
+                </div>
+
+                <p><b>Should</b></p>
+
+                <div class="theoryContent">
+                    <p>Este verbo que se traduce al español como “deber” tiene la idea de una obligación o
+                        recomendación.</p>
+                    <p>Ejemplos:</p>
+
+                    <p>You should take your medicine = Debes tomar tu medicina</p>
+
+                    <p>We should not be in this meeting= Nosotros no deberíamos estar en esta reunión</p>
+
+                    <p>Should I rest more? = ¿Debería descansar más?</p>
+                </div>
+
+                <p><b>Ought to</b></p>
+
+                <div class="theoryContent">
+                    <p>En realidad no es tan usado gracias a que es sinónimo de should, pero vale la pena repasar
+                        algunos ejemplos:</p>
+
+                    <p>She ought to go with her sister = Ella debería ir con su hermana</p>
+                    <p>We ought not assume the worst = No deberíamos pensar en lo peor.</p>
+                    <p>You ought to be more polite = Deberías ser más amable.</p>
+                </div>
+
+                <!-- Modal Verbs of deduction -->
+
+                <div class="centerTitle">
+                    <h3>Modal Verbs for Deduction</h3>
+                </div>
+
+                <p><b>Must:</b> Implica que estás seguro de algo y lo afirmas.</p>
+
+                <p>Ex: They must be in London because I can see the London Eye in the background.</p>
+
+                <p><b>Can’t:</b> es el contrario de Must, es decir que estás seguro de que algo no es, por lo tanto lo
+                    niegas.</p>
+
+                <p>Ex: They can’t have been working because they are wearing casual clothes.</p>
+
+                <p><b>Mustn’t:</b> Expresa prohibición, pero no debemos considerarlo un verbo modal de deducción.</p>
+
+                <p><b></b>Could, May y Might: son distintos grados de certeza. Sinónimos de maybe.</p>
+
+                <p>Ex: They might be friends travelling together.</p>
+
+                <p>Ex: The may have been walking around the city and taking photos.</p>
+
+                <p>Ex: They could be twenty five years old.</p>
+
+                <p>Otros verbos modales que podríamos usar son:</p>
+
+                <p><b>Should/ought to:</b> Sirven para aconsejar o recomendar, son menos imperantes que must.</p>
+
+                <p>Ex: You should finish your project before going out.</p>
+
+                <p>Ex: Her laptop is too old, she ought to buy a new one.</p>
+
+                <p>También podemos negar:</p>
+
+                <p>Ex: You shouldn’t plant tulips in July, do it in January!</p>
+
+                <p><b>Had better:</b> Expresa que sería mejor hacer cierta acción.</p>
+
+                <p>Ex: It’s getting dark, I’d better go home now.</p>
+
+                <p>Need to/Needn’t to or Don’t need to: Expresa la necesidad de hacer algo, no es muy usual usar la
+                    forma</p>
+                <p>afirmativa como verbo modal, pero si la forma negativa.</p>
+
+                <p>Ex: You don’t need to call to confirm your booking.</p>
+
+                <p>Ex: You needen’t do the test, you are ok.</p>
+            </mat-card-content>
+            <mat-card-actions class="mainAction">
+                <button mat-flat-button color="primary" class="mainButton" (click)="goExercises()">
+                    Exercises
+                </button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <!-- Exercises -->
+    <div fxLayout="column" class="exercise" fxFlex *ngIf="isExercises">
+        <mat-card class="card" *ngIf="dataList.length">
+            <mat-card-title class="title-card">
+                <span>Complete Sentences</span>
+            </mat-card-title>
+            <mat-card-content class="content" *ngFor="let exercise of dataList; index as i">
+                <div *ngFor="let word of exercise.sentence" style="display: inline-block">
+                    <mat-label *ngIf="word == '@' && exercise.answer == exercise.correctAnswer && check">{{
+                        exercise.answer }}</mat-label>
+                    <mat-label *ngIf="word != '@'">{{ word }}</mat-label>
+                    <mat-form-field
+                        *ngIf="word == '@' && (exercise.answer != exercise.correctAnswer && check || !check)"
+                        style="width:100px;">
+                        <mat-select [(value)]="exercise.answer" (selectionChange)="resetCheck()">
+                            <mat-option [value]="option" *ngFor="let option of exercise.options">{{option}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <span>&nbsp;</span>
+                </div>
+                <span>&nbsp;</span>
+                <mat-icon *ngIf="exercise.answer == exercise.correctAnswer && check" class="svg-ok" svgIcon="ok">
+                </mat-icon>
+                <mat-icon *ngIf="exercise.answer != exercise.correctAnswer && check" class="svg-error" svgIcon="error">
+                </mat-icon>
+            </mat-card-content>
+            <mat-card-footer class="options">
+                <button mat-raised-button color="primary" class="secundaryButton" (click)="checkSentences()">Check</button>
+                <button mat-raised-button color="accent" class="secundaryButton" (click)="retry()">Retry</button>
+                <button mat-raised-button color="accent" class="secundaryButton" (click)="backTheory()">Back</button>
+            </mat-card-footer>
+        </mat-card>
+    </div>
+</div>

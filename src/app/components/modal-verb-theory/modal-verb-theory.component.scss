@@ -1,0 +1,166 @@
+@import "./../../../custom-styles.scss";
+
+.container {
+    height: 100vh;
+
+    .mat-select-value {
+        display: flex;
+        justify-content: center;
+    }
+
+    ::ng-deep .mat-select-value {
+        display: flex;
+        justify-content: center;
+    }
+
+    .exercise {
+        width: 100vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+
+        .card {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 3vw;
+            overflow: auto;
+
+            .title-card {
+                display: flex;
+                align-self: center;
+            }
+
+            .content {
+                // display: flex;
+                // align-self: center;
+
+
+                margin: 5px 5vw;
+                display: flex;
+                align-items: center;
+
+                .svg-ok {
+                    width: 35px;
+                    height: 35px;
+                }
+
+                .svg-error {
+                    width: 30px;
+                    height: 30px;
+                    padding: 2px;
+                }
+            }
+
+            .options {
+                align-self: center;
+            }
+
+            .mat-select-value {
+                display: flex;
+                justify-content: center;
+
+            }
+
+            ::ng-deep .mat-select-value {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+
+
+    }
+}
+
+.column {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.managment {
+    // padding: 0.5rem;
+    box-sizing: border-box;
+    overflow-x: scroll;
+}
+
+.titleSection {
+    background-color: $background-title-section;
+    padding: $size-title-section;
+    color: #fff;
+    font-size: $font-size-title-section;
+    font-weight: bold;
+}
+
+.column {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.managment {
+    // padding: 0.5rem;
+    box-sizing: border-box;
+    overflow-x: scroll;
+}
+
+.titleSection {
+    background-color: $background-title-section;
+    padding: $size-title-section;
+    color: #fff;
+    font-size: $font-size-title-section;
+    font-weight: bold;
+}
+
+.mainHeader {
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    margin: 25px;
+}
+
+.mainButton {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(149, 236, 255);
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.secundaryButton{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(149, 236, 255);
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    // float: right;
+    // position: absolute;
+    // right: 0;
+    // bottom: 0;
+}
+
+.main {
+    margin: 30px;
+}
+
+.mainContent{
+    margin-left: 50px;
+}
+
+.theoryContent{
+    margin-left: 15px;
+}
+
+.centerTitle{
+    margin-top: 50px;
+}

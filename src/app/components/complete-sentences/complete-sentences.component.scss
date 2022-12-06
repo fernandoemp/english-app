@@ -1,5 +1,16 @@
+@import "./../../../custom-styles.scss";
+
 .container {
     height: 100vh;
+
+    .mat-select-value {
+        display: flex;
+        justify-content: center;
+    }
+    ::ng-deep .mat-select-value{
+        display: flex;
+        justify-content: center;
+    }
 
     .exercise {
         width: 100vw;
@@ -59,5 +70,46 @@
 
 
     }
+}
 
+.column {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+  text-align: center;
+  }
+
+.managment {
+    // padding: 0.5rem;
+    box-sizing: border-box;
+    overflow-x: scroll;
+  }
+
+.titleSection {
+    background-color: $background-title-section;
+    padding: $size-title-section;
+    color: #fff;
+    font-size: $font-size-title-section;
+    font-weight: bold;
+}
+
+.column {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+  text-align: center;
+  }
+
+.managment {
+    // padding: 0.5rem;
+    box-sizing: border-box;
+    overflow-x: scroll;
+  }
+
+.titleSection {
+    background-color: $background-title-section;
+    padding: $size-title-section;
+    color: #fff;
+    font-size: $font-size-title-section;
+    font-weight: bold;
 }
