@@ -5,10 +5,12 @@ import data from '../../../assets/exercices/complete-sentences.json';
   providedIn: 'root'
 })
 export class SystemService {
+  completeTheoryDataList: any[] = [];
   completeSentencesDataList: any[] = [];
 
   constructor() {
     this.getSentences();
+    this.getTheory();
   }
 
   getSentences() {
@@ -19,6 +21,13 @@ export class SystemService {
       x.options.forEach((element: string) => {
         element = element.replace(/\s/g, "");
       });
+    });
+  }
+
+  getTheory() {
+    this.completeTheoryDataList = data.theory;
+    this.completeTheoryDataList.forEach(x => {
+      x.examples = x.examples.toString().split('|');
     });
   }
 }

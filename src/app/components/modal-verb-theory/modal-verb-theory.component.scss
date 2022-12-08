@@ -82,7 +82,6 @@
 }
 
 .managment {
-    // padding: 0.5rem;
     box-sizing: border-box;
     overflow-x: scroll;
 }
@@ -124,16 +123,15 @@
 }
 
 .mainButton {
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin: 0 auto;
     background-color: rgb(149, 236, 255);
     color: #222;
     font-size: 20px;
     font-weight: 500;
     float: right;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    // position: absolute;
+    // right: 0;
+    // bottom: 0;
 }
 
 .secundaryButton{
@@ -159,8 +157,22 @@
 
 .theoryContent{
     margin-left: 15px;
+    width: 65%;
 }
 
 .centerTitle{
     margin-top: 50px;
+}
+
+.verbContent{
+    display: flex;
+    // position: relative;
+}
+
+.exampleImage{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    // position: absolute;
+    // right: 0;
 }

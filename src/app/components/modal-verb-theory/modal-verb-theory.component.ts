@@ -11,6 +11,7 @@ import { SystemService } from 'src/app/core/services/system.service';
 })
 export class ModalVerbTheoryComponent implements OnInit {
 
+  data: any[] = [];
   dataList: any[] = [];
   check: boolean = false;
   isExercises: boolean;
@@ -20,6 +21,7 @@ export class ModalVerbTheoryComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.data = this.systemService.completeTheoryDataList;
     this.dataList = this.systemService.completeSentencesDataList; 
   }
 

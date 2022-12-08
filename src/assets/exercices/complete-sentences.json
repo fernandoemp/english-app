@@ -2,15 +2,174 @@
     "exercises": [
         {
             "sentence": "You @ listen to the teacher.",
-            "options": "must,can",
+            "options": "could,will,Would,must,can",
             "correctAnswer": "must",
             "answer":""
         },
         {
-            "sentence": "You @ park here",
-            "options": "can´t,won't",
+            "sentence": "People @ waste food",
+            "options": "won't,wouldn't,mustn't,shouldn't,couldn't",
             "correctAnswer": "won't",
             "answer":""
+        },{
+            "sentence": " @ it snow tomorrow.",
+            "options": "Must,Shall,Should,Will,Would",
+            "correctAnswer": "Will",
+            "answer":""
+        },
+        {
+            "sentence": " @ I have a coffe, please?",
+            "options": "Can,Would,Should,Could,,Must",
+            "correctAnswer": "Could",
+            "answer":""
+        },
+        {
+            "sentence": "You @ drink alcohol.",
+            "options": "won't,wouldn't,shouldn't,mustn't,couldn't",
+            "correctAnswer": "mustn't",
+            "answer":""
+        },
+        {
+            "sentence": "@ you play the guitar?",
+            "options": "Would,Must,Should,Can,Shall",
+            "correctAnswer": "Can",
+            "answer":""
+        },
+        {
+            "sentence": "@ you like to go by train?",
+            "options": "Will,Shall,Should,Would,Could",
+            "correctAnswer": "Would",
+            "answer":""
+        },
+        {
+            "sentence": "I @ play tennis tomorrow.",
+            "options": "can't,mustn't,shouldn't,won't,wouldn't",
+            "correctAnswer": "won't",
+            "answer":""
+        },
+        {
+            "sentence": "We @ take photos here.",
+            "options": "could,will,should,must,can",
+            "correctAnswer": "can",
+            "answer":""
+        },
+        {
+            "sentence": "You @ smoke so much.",
+            "options": "can't,won't,wouldn't,mustn't,shouldn't,couldn't",
+            "correctAnswer": "shouldn't",
+            "answer":""
+        },
+        {
+            "sentence": "@ I have the menu, please.",
+            "options": "Can,May,Would,Must,Could",
+            "correctAnswer": "Could",
+            "answer":""
+        },
+        {
+            "sentence": "A surgeon @ make mistakes.",
+            "options": "wnon't,wouldn't,shouldn't,mustn't,couldn't",
+            "correctAnswer": "mustn't",
+            "answer":""
+        },
+        {
+            "sentence": "Lily @ swim when she was six.",
+            "options": "wouldn't,mustn't,shouldn't,couldn't,shouldn't",
+            "correctAnswer": "couldn't",
+            "answer":""
+        },
+        {
+            "sentence": "If I were you I @ do it.",
+            "options": "couldn't,mustn't,shouldn't,won't,wouldn't",
+            "correctAnswer": "wouldn't",
+            "answer":""
+        }
+        ,
+        {
+            "sentence": "I @ eat when I finish this.",
+            "options": "must,shall,should,will,would",
+            "correctAnswer": "will",
+            "answer":""
+        },
+        {
+            "sentence": "Peter @ speak Spanish.",
+            "options": "Couldn't,won't,wouldn't,shouldn't,mustn't,can't",
+            "correctAnswer": "can't",
+            "answer":""
+        }
+        ,
+        {
+            "sentence": "You @ brush your teeth every day.",
+            "options": "May,Would,Shall,Must,Can",
+            "correctAnswer": "Must",
+            "answer":""
+        },
+        {
+            "sentence": "We @ go if you invited us.",
+            "options": "can,might,must,would,will",
+            "correctAnswer": "would",
+            "answer":""
+        }
+    ],
+    "theory": [
+        {
+            "verb": "Can",
+            "theory": "Expresa habilidad o posibilidad y en español los traducimos como “poder”.",
+            "examples": "I can speak english = Puedo hablar inglés.|He can’t escort go with you = No puede acompañarte|Can you help me? = ¿Me puedes ayudar?",
+            "imgSource": "assets/background.png"
+        },
+        {
+            "verb": "Could",
+            "theory": "Es la forma pasada de “can”, pero también se usa para expresar posibilidad. Además sirve para preguntar con un tono de formalidad (particularmente hacer solicitudes a quien nos escucha).",
+            "examples": "You could use my chair = Podrías usar mi silla|She could not go to the market with us = Ella no pudo ir al mercado nos nosotras|Could you open the door, please? = ¿Podrías abrirme la puerta, por favor?",
+            "imgSource": "assets/background.png"
+        },
+        {
+            "verb": "May",
+            "theory": "Este modal verb se utiliza para expresar posibilidad y probabilidad.",
+            "examples": "She may pass the test = Ella podría aprobar el examen|It may not snow tomorrow = Mañana podría no nevar.|May I come in? = ¿Puedo entrar?",
+            "imgSource": "assets/background.png"
+        },
+        {
+            "verb": "Might",
+            "theory": "Might es usado para dar sugerencias y posibilidades y también se usa para peticiones y ofrecimientos.",
+            "examples": "My sister might come home for my birthday = Mi hermana tal vez pueda venir a casa para mi cumpleaños|You might not arrive on time = Puede ser que no llegues a tiempo.|Might I buy you a drink? = ¿Te puedo invitar un trago?",
+            "imgSource": "assets/background.png"
+        },
+        {
+            "verb": "Will",
+            "theory": "Es más conocido por expresar el futuro en inglés, pero también se usa para expresar una decisión hecha en el momento en que se habla o la intención de hacer algo.",
+            "examples": "He will call me back = Me va a volver a hablar.|I won’t go with you because I have a lot of work = No iré contigo porque tengo mucho trabajo|Will you cover my expenses = ¿Puedes cubrir mis gastos?",
+            "imgSource": "assets/background.png"
+        },
+        {
+            "verb": "Would",
+            "theory": "Se usa para realizar peticiones con amabilidad y también sirve para señalar acciones constantes en el pasado.",
+            "examples": "I would like a cup of tea, please = Me gustaría una taza de té, por favor.|He would visit his sister every weekend = Visitaba a su hermana cada fin.|Would you like to taste it? = ¿Te gustaría probarlo?",
+            "imgSource": "assets/background.png"
+        },
+        {
+            "verb": "Must",
+            "theory": "En algunas ocasiones puede significar suposiciones, pero lo más común es que se refiera a necesidades o compromisos.",
+            "examples": "He must be back by tomorrow = Él debe estar aquí para mañana.|You must not litter = Está prohibido tirar basura en la calle.|Must I go to the dentist today? = ¿Sí tengo que ir al dentista hoy?",
+            "imgSource": "assets/background.png"
+        },
+        {
+            "verb": "Shall",
+            "theory": "En los últimos tiempos ha caído en desuso en Estados Unidos dentro de la lengua informal, pero en Reino Unido sigue siendo común. Además su significado es el mismo que will.",
+            "examples": "I shall be at your wedding = Estaré en tu boda.|You shall not go to the party = No vas a ir a la fiesta.|Shall we go to the theatre tomorrow? = ¿Vamos al teatro mañana?",
+            "imgSource": "assets/background.png"
+        },
+        {
+            "verb": "Should",
+            "theory": "Este verbo que se traduce al español como “deber” tiene la idea de una obligación o recomendación.",
+            "examples": "You should take your medicine = Debes tomar tu medicina.|We should not be in this meeting= Nosotros no deberíamos estar en esta reunión.|Should I rest more? = ¿Debería descansar más?",
+            "imgSource": "assets/background.png"
+        },
+        {
+            "verb": "Ought to",
+            "theory": "En realidad no es tan usado gracias a que es sinónimo de should, pero vale la pena repasar algunos Examples.",
+            "examples": "She ought to go with her sister = Ella debería ir con su hermana.|We ought not assume the worst = No deberíamos pensar en lo peor.|You ought to be more polite = Deberías ser más amable.",
+            "imgSource": "assets/background.png"
         }
     ]
 }

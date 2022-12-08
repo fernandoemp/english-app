@@ -27,6 +27,7 @@ import { DisclaimerComponent } from './components/disclaimer/disclaimer.componen
 import { ModalVerbTheoryComponent } from './components/modal-verb-theory/modal-verb-theory.component';
 import { CrimesTheoryComponent } from './components/crimes-theory/crimes-theory.component';
 import { CrimesExercisesComponent } from './components/crimes-exercises/crimes-exercises.component';
+import { NewOmponentComponent } from './components/new-omponent/new-omponent.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { CrimesExercisesComponent } from './components/crimes-exercises/crimes-e
     DisclaimerComponent,
     ModalVerbTheoryComponent,
     CrimesTheoryComponent,
-    CrimesExercisesComponent
+    CrimesExercisesComponent,
+    NewOmponentComponent
   ],
   imports: [
     AngularMaterialModule,
